@@ -2,7 +2,6 @@
 *.rbc
 .config
 .yardoc
-/Gemfile.lock
 InstalledFiles
 _yardoc
 coverage
@@ -22,3 +21,4 @@ spec/reports
 /test_app/.sass-cache
 /test_app/config/mongoid.yml
 /spec/rails
+.ruby-version
