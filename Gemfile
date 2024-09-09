@@ -2,9 +2,11 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem 'ransack-mongoid', git: 'https://github.com/activerecord-hackery/ransack-mongoid'
+gem 'ransack-mongoid', path: "~/development/open_source/ransack-mongoid/"#, git: 'https://github.com/skalibog/ransack-mongoid'
+gem 'ransack', '~> 2.1.0'
 
 gem 'rails', '>= 5.2', '< 6.1'
+gem 'mongoid', '= 7.0.0'
 
 gem 'devise'
 

@@ -10,4 +10,13 @@ class Post
 
   embeds_one :author
   field :'author.city.name'
+
+  def self.ransack(*args)
+
+    binding.pry unless args.first.empty?
+
+    super
+
+  end
+
 end
