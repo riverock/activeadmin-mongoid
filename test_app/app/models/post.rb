@@ -12,11 +12,7 @@ class Post
   field :'author.city.name'
 
   def self.ransack(*args)
-
-    binding.pry unless args.first.empty?
-
     super
-
   end
 
 end
