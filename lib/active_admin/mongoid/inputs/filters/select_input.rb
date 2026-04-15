@@ -7,8 +7,6 @@ class ActiveAdmin::Inputs::Filters::SelectInput
     else
       reflection&.key || method
     end
-  rescue => e
-    binding.pry
   end
 
   def input_name
